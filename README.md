@@ -1,34 +1,112 @@
-# WilDev Ecommerce (demo) — Flask + SQLite
+# 🛒 WildevShop
 
-Ecommerce responsive con:
-- Catálogo, búsqueda, detalle de producto
-- Carrito en sesión, “checkout” de demo (crea orden en DB)
-- Login/Logout + usuarios
-- Panel Admin: CRUD de productos y usuarios (solo admins)
+**WildevShop** es una aplicación web de e‑commerce desarrollada con **Flask**, pensada como base sólida para una tienda online moderna.  
+El proyecto está estructurado con **Blueprints**, preparado para escalar y para ser desplegado en un **VPS con Linux**.
 
-## Requisitos
-- Python 3.10+ recomendado (funciona con 3.9+)
+---
 
-## Cómo correr (VS Code / terminal)
+## 🚀 Características principales
+
+- Arquitectura Flask con `create_app`
+- Uso de Blueprints (`shop`, `cart`, etc.)
+- Renderizado con Jinja2
+- Estructura lista para e‑commerce
+- Preparado para despliegue en VPS
+- Código organizado y mantenible
+
+---
+
+## 🧱 Estructura del proyecto
+
+---
+
+## ⚙️ Instalación y configuración
+
+1. Clona el repositorio:
+
+   ```bash
+   git clone
+
+   ```
+
+# 🛍️ WilDev Ecommerce
+
+<!-- Badges -->
+
+![GitHub stars](https://img.shields.io/github/stars/wildevsoluciones/Ecommerce-Wildev)
+![GitHub forks](https://img.shields.io/github/forks/wildevsoluciones/Ecommerce-Wildev)
+![License](https://img.shields.io/github/license/wildevsoluciones/Ecommerce-Wildev)
+
+## 🚀 ¿Qué es este proyecto?
+
+**WilDev Ecommerce** es un proyecto de tienda online construido con **Flask (Python)** y **SQLite**, pensado para demostrar funcionalidades básicas de un sistema de ecommerce:
+
+✔ Catálogo y búsqueda de productos  
+✔ Carrito de compras en sesión  
+✔ Checkout y almacenamiento de órdenes  
+✔ Panel administrativo con CRUD  
+✔ Autenticación de usuarios y administración 👤
+
+---
+
+## 🧱 Tecnologías Usadas
+
+| Área            | Herramienta            |
+| --------------- | ---------------------- |
+| Backend         | Python / Flask         |
+| Base de Datos   | SQLite                 |
+| Frontend        | HTML / CSS / Bootstrap |
+| Version Control | Git & GitHub           |
+
+---
+
+## 🧰 Características Principales
+
+- 🛒 Carrito persistente por sesión
+- 🔐 Login/Logout
+- ⚙️ CRUD de productos y usuarios desde panel Admin
+- 🗃️ Almacenamiento simple con SQLite
+
+---
+
+## 🏁 Comenzando
+
+### 🧠 Requisitos
+
+- Python 3.10+
+- pip
+
+### 🚀 Instalación
+
+# Clonar repositorio
+
 ```bash
-python -m venv .venv
-# Windows:
-.venv\Scripts\activate
-# Linux/Mac:
-# source .venv/bin/activate
 
-pip install -r requirements.txt
-python app.py
+git clone https://github.com/wildevsoluciones/Ecommerce-Wildev.git
+
+cd Ecommerce-Wildev
 ```
 
-Abrí: http://127.0.0.1:5000
+# Crear ambiente virtual
 
-## Credenciales demo
-- Admin: **admin** / **admin123!**
-- Usuario: **demo** / **demo123!**
+```bash
+python -m venv .venv
+```
 
-> Cambiá estas credenciales en cuanto lo pruebes.
+# activar (Linux/macOS)
 
-## Notas
-- La base se crea en `instance/app.db`
-- Para resetear todo: borrá la carpeta `instance/` y reiniciá.
+```bash
+source .venv/bin/activate
+```
+
+# activar (Windows PowerShell)
+
+```bash
+.venv\\Scripts\\Activate
+```
+
+# Instalar dependencias
+
+```bash
+pip install -r requirements.txt
+```
